@@ -1,0 +1,20 @@
+body{
+background-image: url(leaf.jpg); background-repeat: no-repeat; 
+background-position:center;
+}
+
+:any-link{
+        color: aqua;
+}
+
+h1{
+    background-color: black;
+    padding: 50px;
+    width: fit-content;
+    border-radius: 30px;
+    border: red double;
+    color: #f11313;
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
