@@ -1,0 +1,50 @@
+img{
+    width: 250px;
+    height:250px;
+    border-radius: 50%;
+}
+
+.mother{
+    width: 350px;
+    height: 620px;
+    background-color: aqua;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.photo{
+   height: 250px;
+   border-bottom:2px gray solid ;
+  
+}
+
+.content{
+    height: 220px;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+.photo>img{
+    padding:20px 0px 20px; 
+    width: 200px;
+    height: 200px;
+    margin: 0% auto;
+    display: block;
+    border-radius: 90%;
+}
+
+h1, h3, p{
+    font-size: large;
+    padding:auto ;
+}
+
+.logo>img{
+    margin-bottom: 100px;
+    height: 70px;
+    width: 60px;
+    margin-left: 50px;
+    margin-bottom: 90px;
+    
+
+}
+
