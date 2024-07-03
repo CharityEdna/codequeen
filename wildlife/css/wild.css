@@ -1,0 +1,10 @@
+body{
+    background-color:rgb(228, 234, 236);
+}
+
+body>h3{
+    font-style: italic;
+    color: black;
+    background-color: rgb(190, 221, 221);
+    position: fixed;
+}
