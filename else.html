@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript if .. else</h2>
+
+<p>A time-based greeting:</p>
+
+<p id="demo"></p>
+
+<script>
+
+  // if, else if, else
+const time = new Date().getHours();
+let greeting;
+if (time < 10) {
+  greeting = "Good morning";
+} else if (time < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+document.getElementById("demo").innerHTML = greeting;
+
+
+// FUNCTIONS
+
+// function to add two(2) numbers
+function addNumbers(a,b) {
+  return a+b;
+}
+console.log(addNumbers(4,5))
+console.log(addNumbers(1,1))
+console.log(addNumbers(10,15))
+
+
+// method 2
+const divideNumbers=(x,y)=>{
+  return x/y;
+}
+console.log(divideNumbers(10,5))
+
+
+function multiplyNumbers(a,b){
+  return a*b;
+}
+console.log(multiplyNumbers(5,0))
+console.log(multiplyNumbers(10,9))
+console.log(multiplyNumbers(100,15))
+
+
+// method Arrow function
+const subtractNumbers=(number1, number2)=>{
+  return number1-number2;
+}
+console.log(subtractNumbers(10,4))
+  
+
+
+</script>
+
+</body>
+</html>
