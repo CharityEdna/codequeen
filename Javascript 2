@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if</title>
+</head>
+<body>
+    <script>
+        // if, else if, else
+     let age = '30';
+     
+     
+     if(age===30){
+      console.log("iYou can vote");
+     }   
+     
+     else if(age==30) {
+        console.log("You can get a national id");
+        
+     }
+     else if(age>90){
+            console.log('greater than 90')
+     } 
+     else {
+        console.log("You can't vote");
+     }
+
+     var firstName = 'Rachael'
+    if(firstName =='Lillian'){
+        console.log('Your name is Lillian')
+    }
+    else {
+        console.log(' your name is not Rachael')
+    }
+
+    var number = 12;
+    if(number !== 12){
+        console.log('not equal to 10')
+    }
+    else{
+        console.log('equal')
+    }
+
+    
+    // for loop
+    for(let i = 1; i<10; i++){
+        console.log(i)
+    }
+    
+    //while loop
+    var x = 0;
+    while(x<5){
+        console.log(x);
+        x++;
+    }
+
+
+    // Array
+    const week = ['Mon', 'Tue', 'Wed', 'Thur', 'Fri'];
+    console.log(week[0]);
+
+    const fruits =[['mango', 'avocado', 'cherry', 'peach'],['watermelon', 'orange', 'apples', 'pawpaw']];
+    console.log(fruits[0]);
+    console.log(fruits[0][0]);
+    console.log(fruits[1][2]);
+
+
+    </script>
+</body>
+</html>
