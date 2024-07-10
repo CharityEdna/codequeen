@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>you</title>
+</head>
+<body>
+    <script>
+     let age = 12;
+     
+     if(age<18){
+      console.log("You can vote");
+     }   
+     
+    
+     else {
+        console.log("You can't vote");
+     }
+
+// INTERNAL JAVASCRIPT
+    //  Array methods
+    const week=['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+
+   //week.push (push adds an element at the end of the array)
+   week.push('saturday')
+   console.log(week)
+
+//week.pop(remove items at the end of the array)
+week.pop('Saturday')
+   console.log(week)
+
+// week.shift(removes the first value in the array)
+week.shift('Monday')
+   console.log(week)
+
+// week.unshift(adds a value at the beginning of the array)
+week.unshift('Sunday', 'Monday')
+   console.log(week)
+
+// week.join(u choose how u want to separate your strings except commas)
+newWeek=week.join("||");
+console.log(week)
+
+// week.split(it will make the arrays separate)
+    </script>
+</body>
+</html>
