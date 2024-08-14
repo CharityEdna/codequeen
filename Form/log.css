@@ -1,0 +1,25 @@
+.love{
+    border-radius: 5px;
+    padding: 60px;
+    width: fit-content;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.hey{
+    background-image: url(./images/coolwoman.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #b1e3fa;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+

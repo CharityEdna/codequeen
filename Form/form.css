@@ -1,0 +1,36 @@
+.cow{
+    border-radius: 5px;
+    padding: 40px;
+    width: fit-content;
+    border-radius: 9%;
+    background-color:white;
+}
+
+    .whole{
+    background-image: url(./images/woman.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h5{
+    font-style: italic;
+}
+
+.love{
+    cursor: pointer;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: white;
+    padding: 14px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+  
+  

@@ -1,0 +1,31 @@
+p{
+    font-size: xx-large;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h5{
+    font-size: 50px;
+    color: black;
+    box-shadow: 50px;
+}
+      
+      img:hover {
+        opacity: 0.5;
+        size: cover;
+    }
+
+button{
+    background-color: #5026a0;
+    color: white;
+    border-right: 800px;
+}
+
+div>button{
+    box-sizing: content-box;
+}
+.goat{
+    height: 500px;
+    width: 250px;
+}
